@@ -2,11 +2,11 @@ import { NextRequest, NextResponse } from "next/server";
 import { Message, getSSLHubRpcClient } from "@farcaster/hub-nodejs";
 import { FrameRequest } from "../../types/farcasterTypes";
 
-const POST_URL = "https://keiretsu-frame-airdrop.vercel.app/api/end";
-const VISIT_URL = "https://keiretsu-frame-airdrop.vercel.app/api/frame";
-const TOGGLE_URL = "https://keiretsu-frame-airdrop.vercel.app/api/toggle";
-const Q2_URL = "https://keiretsu-frame-airdrop.vercel.app/api/q2";
-const Q3_URL = "https://keiretsu-frame-airdrop.vercel.app/api/end";
+const POST_URL = "https://stand-with-crypto-quiz-frame.vercel.app/api/end";
+const VISIT_URL = "https://stand-with-crypto-quiz-frame.vercel.app/api/frame";
+const TOGGLE_URL = "https://stand-with-crypto-quiz-frame.vercel.app/api/toggle";
+const Q2_URL = "https://stand-with-crypto-quiz-frame.vercel.app/api/q2";
+const Q3_URL = "https://stand-with-crypto-quiz-frame.vercel.app/api/end";
 
 export async function POST(req: NextRequest, res: NextResponse) {
   console.log("POST received at /api/end");
@@ -40,7 +40,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
   const buttonId = validatedMessage?.data?.frameActionBody?.buttonIndex || 0;
   const fid = validatedMessage?.data?.fid || 0;
 
-  const IMG_URL = "https://keiretsu-frame-airdrop.vercel.app/stand.png";
+  const IMG_URL = "https://stand-with-crypto-quiz-frame.vercel.app/stand.png";
 
   // If buttonId is 1, redirect to the external website
   if (buttonId === 2) {

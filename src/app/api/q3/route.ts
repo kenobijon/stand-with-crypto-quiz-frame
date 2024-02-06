@@ -2,11 +2,12 @@ import { NextRequest, NextResponse } from "next/server";
 import { Message, getSSLHubRpcClient } from "@farcaster/hub-nodejs";
 import { FrameRequest } from "../../types/farcasterTypes";
 
-const POST_URL = "https://keiretsu-frame-airdrop.vercel.app/api/q3-answer";
-const VISIT_URL = "https://keiretsu-frame-airdrop.vercel.app/api/frame";
-const TOGGLE_URL = "https://keiretsu-frame-airdrop.vercel.app/api/toggle";
-const Q2_URL = "https://keiretsu-frame-airdrop.vercel.app/api/q2";
-const Q3_IMAGE_URL = "https://keiretsu-frame-airdrop.vercel.app/jobs.png";
+const POST_URL =
+  "https://stand-with-crypto-quiz-frame.vercel.app/api/q3-answer";
+const VISIT_URL = "https://stand-with-crypto-quiz-frame.vercel.app/api/frame";
+const TOGGLE_URL = "https://stand-with-crypto-quiz-frame.vercel.app/api/toggle";
+const Q2_URL = "https://stand-with-crypto-quiz-frame.vercel.app/api/q2";
+const Q3_IMAGE_URL = "https://stand-with-crypto-quiz-frame.vercel.app/jobs.png";
 
 export async function POST(req: NextRequest, res: NextResponse) {
   console.log("POST received at /api/q3");

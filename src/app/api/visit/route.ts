@@ -2,9 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 import { Message, getSSLHubRpcClient } from "@farcaster/hub-nodejs";
 import { FrameRequest } from "../../types/farcasterTypes";
 
-const POST_URL = "https://keiretsu-frame-airdrop.vercel.app/api/visit";
-const VISIT_URL = "https://keiretsu-frame-airdrop.vercel.app/api/visit";
-const TOGGLE_URL = "https://keiretsu-frame-airdrop.vercel.app/api/toggle";
+const POST_URL = "https://stand-with-crypto-quiz-frame.vercel.app/api/visit";
+const VISIT_URL = "https://stand-with-crypto-quiz-frame.vercel.app/api/visit";
+const TOGGLE_URL = "https://stand-with-crypto-quiz-frame.vercel.app/api/toggle";
 
 export async function POST(req: NextRequest, res: NextResponse) {
   console.log("POST received at /api/visit");

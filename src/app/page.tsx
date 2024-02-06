@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
-const POST_URL = "https://keiretsu-frame-airdrop.vercel.app/api/frame";
-const IMG_URL = "https://keiretsu-frame-airdrop.vercel.app/standquiz.png";
-const Q1_URL = "https://keiretsu-frame-airdrop.vercel.app/api/q1";
+const POST_URL = "https://stand-with-crypto-quiz-frame.vercel.app/api/frame";
+const IMG_URL = "https://stand-with-crypto-quiz-frame.vercel.app/standquiz.png";
+const Q1_URL = "https://stand-with-crypto-quiz-frame.vercel.app/api/q1";
 
 console.log("posturl", POST_URL);
 const frameMetadata = {
