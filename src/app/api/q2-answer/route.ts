@@ -62,7 +62,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
       `<meta property="fc:frame" content="vNext" />` +
       `<meta property="fc:frame:image" content="${INCORRECT_IMAGE_URL}" />` +
       `<meta property="fc:frame:button:1" content="Try Again" />` +
-      `<meta property="fc:frame:post_url" content="${POST_URL}" />` +
+      `<meta property="fc:frame:post_url" content="${Q2_URL}" />` +
       `</head></html>`;
   }
 
