@@ -52,7 +52,7 @@ export async function POST(req: NextRequest, res: NextResponse) {
     `<!DOCTYPE html><html><head>` +
     `<meta property="fc:frame" content="vNext" />` +
     `<meta property="fc:frame:image" content="${IMG_URL}" />` +
-    `<meta property="fc:frame:button:1" content="Subscribe to our email list!" />` +
+    `<meta property="fc:frame:button:1" content="Provide Feedback!" />` +
     `<meta property="fc:frame:button:2" content="Go to Stand With Crypto" />` +
     `<meta property="fc:frame:button:2:action" content="post_redirect" />` +
     `<meta property="fc:frame:input:text" content="email" />` +
